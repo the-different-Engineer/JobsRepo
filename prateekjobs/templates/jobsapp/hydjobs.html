@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>hydJobs</title>
+  </head>
+  <body>
+    <div class="hydcontainer">
+      {% if jobs_list %}
+        {% for job in jobs_list %}
+          <h1> JOB : {{job.title}} </h1>
+        {% endfor %}
+      {% endif %}
+    </div>
+    <a class="btn btn-primary btn-lg" href="/home" role="button">RETURN</a>
+  </body>
+</html>

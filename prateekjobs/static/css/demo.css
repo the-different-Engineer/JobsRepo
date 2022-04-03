@@ -1,0 +1,19 @@
+.container{
+  margin-top:200px;
+  text-align:center;
+  background-color : green;
+}
+
+  .container .jumbotron{
+    background: red;
+    color:white;}
+
+.jumbotron a{
+  background:yellow;
+  color : red;
+  border:2px solid green;
+}
+
+body{
+  background: url(https://scontent.fidr4-1.fna.fbcdn.net/v/t1.6435-9/130482537_3466901106739762_6805959684151049854_n.jpg?_nc_cat=111&ccb=1-5&_nc_sid=e3f864&_nc_ohc=wWtHz50bR2cAX8tIbra&tn=lB7yLqhYSptcC6vN&_nc_ht=scontent.fidr4-1.fna&oh=00_AT_t_oQaEF3TNckQDL0f4NdLIpGOVc9z2WUChNJ0NOVWzg&oe=62621C53)
+}
